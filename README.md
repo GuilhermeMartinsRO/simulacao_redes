@@ -27,12 +27,3 @@ Digite uma mensagem curta quando solicitado. Para evitar a pergunta:
 3. **Assinatura digital:** Alice usa sua própria chave privada para assinar. Bob
    verifica com a chave pública de Alice. Quando o programa altera a mensagem, a
    assinatura passa a ser inválida.
-
-Frase curta para concluir:
-
-> Criptografia protege o conteúdo; assinatura digital comprova a autoria e a
-> integridade.
-
-O exemplo usa RSA-OAEP para criptografia e RSA-PSS para assinatura. É uma
-demonstração didática; sistemas reais normalmente usam criptografia híbrida para
-mensagens e arquivos grandes.
